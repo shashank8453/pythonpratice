@@ -5,6 +5,3 @@ def add(a,b,c=0):
 
 add(2,3)
 add(3,4,5)
-
-
-print("hello")
