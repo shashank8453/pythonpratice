@@ -1,12 +1,12 @@
 dict1={"item":1,"item2":2,"item3":3}
 dict2=dict1.copy()
-# print(dict1,dict2,sep='/n')
+print(dict1,dict2,sep='/n')
 print(f"{dict1}/n{dict2}")
 
 print(dict1.items())
 
-print(dict1.keys())
-print(dict1.values())
+print(dict1.keys())  # to print items of dictionary
+print(dict1.values()) # to print values of dictionary
 
 dict3={1:"value"}
 print(dict3.values())
