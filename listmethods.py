@@ -1,4 +1,8 @@
 list1=[1,23,4,5,6,7,8,1,1]
+
+for i in list1[::-1]:
+    print(i,end="")
+print(list1[::-1])
 list3=[3,4,5]
 list1.append(2)
 print(list1)
